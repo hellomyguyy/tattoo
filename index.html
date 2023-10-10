@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tattoo Shop</title>
+        <link rel="icon" type="image/png" href="./img/icon.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="style.css">
+
+            <div class="container pullLeft navbar">
+                <input type="checkbox" class="toggle-menu" id="menu-toggle">
+                <div class="hamburger"></div>
+                <div class="ShopName">
+                    <span>Tattoo Shop Name</span>
+                </div>
+                <ul class="menu">
+                    <li><a>HOME</a></li>
+                    <li><a>ARTICLES</a></li>
+                    <li><a href="#portfolios">PORTFOLIOS</a></li>
+                    <li><a>ABOUT</a></li>
+                    <li><a>CONTACT</a></li>
+                </ul>
+            </div>                      
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="hero">
+                <div class="logo-text-overlay">
+                    Tattoo Shop Name
+                </div>
+                <div class="box">
+                    <div class="bottom-right-div bubbleUp">
+                        <a href="#portfolios">See Our Work</a>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolios" class="portfolios">
+                <div class="center-container">
+                    <h2 class="artist">Our Artists</h2>
+                    <div class="flex-box container pullUp links-container">
+                        <a href="">Mo Howard</a>
+                        <a href="">Larry Fine</a>
+                        <a href="">Curly Howard</a>
+                        <a href="">View all Artists</a>
+                    </div>
+                    <div>
+                        <p class="work">Here is our amazing work!</a>
+                    </div>
+                    <div>
+                        <p class="hid">Call for an appointment today!</p>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <script>
+            // JavaScript function to reset the scroll position on page load or refresh
+            function resetScrollPosition() {
+                window.scrollTo(0, 0);
+            }
+        
+            // Call the resetScrollPosition function when the page loads or refreshes
+            window.addEventListener('load', resetScrollPosition);
+            // Get a reference to the hero section
+        </script>
+    </body>
+</html>
